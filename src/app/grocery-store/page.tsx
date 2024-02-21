@@ -52,28 +52,19 @@ export default function page() {
 
       <GridContainer>
         <GridItem1>
-          <Image
-            src="./images/grocery/grocery7.jpg"
-            alt="Image 5"
-          />
+          <Image src="./images/grocery/grocery7.jpg" alt="Image 5" />
           <StyledCategoriesButton1>New Collections !</StyledCategoriesButton1>
         </GridItem1>
         <GridItem2>
           <GridItem3>
             <GridItem4>
-              <Image
-                src="./images/grocery/grocery5.jpg"
-                alt="Image 6"
-              />
+              <Image src="./images/grocery/grocery5.jpg" alt="Image 6" />
               <StyledCategoriesButton5>
                 Our Popular Products
               </StyledCategoriesButton5>
             </GridItem4>
             <GridItem5>
-              <Image
-                src="./images/grocery/grocery3.jpg"
-                alt="Image 7"
-              />
+              <Image src="./images/grocery/grocery3.jpg" alt="Image 7" />
               <StyledCategoriesButton5>
                 Hot Trending Products
               </StyledCategoriesButton5>
@@ -82,19 +73,13 @@ export default function page() {
 
           <GridItem6>
             <GridItem4>
-              <Image
-                src="./images/grocery/grocery4.jpg"
-                alt="Image 6"
-              />
+              <Image src="./images/grocery/grocery4.jpg" alt="Image 6" />
               <StyledCategoriesButton5>
                 Our Popular Products
               </StyledCategoriesButton5>
             </GridItem4>
             <GridItem5>
-              <Image
-                src="./images/grocery/grocery2.jpg"
-                alt="Image 7"
-              />
+              <Image src="./images/grocery/grocery2.jpg" alt="Image 7" />
               <StyledCategoriesButton5>
                 Hot Trending Products
               </StyledCategoriesButton5>

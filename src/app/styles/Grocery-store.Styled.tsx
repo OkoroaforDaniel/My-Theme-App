@@ -4,7 +4,7 @@ const GridContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-//   margin-bottom: -100px;
+  //   margin-bottom: -100px;
   margin-left: 1%;
   margin-right: 1%;
   @media screen and (max-width: 969px) {
@@ -82,7 +82,7 @@ const StyledCategoriesButton8 = styled.button`
 const GridItem1 = styled.div`
   position: relative;
   overflow: hidden;
-//   height: 90px;
+  //   height: 90px;
   &:hover ${Image} {
     transform: scale(1.1);
   }
@@ -124,13 +124,13 @@ const GridItem5 = styled.div`
   }
 `;
 const GridItem6 = styled.div`
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-gap: 20px;
-margin-top: 20px;
-@media screen and (max-width: 567px) {
-  grid-template-columns: repeat(1, 4fr);
-}
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+  @media screen and (max-width: 567px) {
+    grid-template-columns: repeat(1, 4fr);
+  }
 `;
 
 export {

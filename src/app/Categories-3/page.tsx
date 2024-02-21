@@ -7,7 +7,14 @@ import PopularProduct from "../PopularProduct/PopularProduct";
 import InstagramaImage from "../InstagramImage/InstagramaImage";
 import Footer from "../Footer/Footer";
 
-import { Image, GridContainer, GridItem, StyledH5H1ButtonWhite, StyledH5H1Button, StyledCategoriesButton1 } from "../styles/Categories-3.styled";
+import {
+  Image,
+  GridContainer,
+  GridItem,
+  StyledH5H1ButtonWhite,
+  StyledH5H1Button,
+  StyledCategoriesButton1,
+} from "../styles/Categories-3.styled";
 
 import {
   StyledH2H4,

@@ -20,7 +20,6 @@ import MultipleStopIcon from "@mui/icons-material/MultipleStop";
 import LoginIcon from "@mui/icons-material/Login";
 
 export default function NavBarTwo() {
-
   return (
     <StyledNavTwo>
       <StyledFlexNavTwo>
@@ -57,14 +56,13 @@ export default function NavBarTwo() {
           </StyledFlexNav>
           </Link> */}
 
- 
           <Link href="/Compare" style={{ textDecoration: "none" }}>
-          <StyledFlexNav>
-            <StyledMaterialIcon>
-              <MultipleStopIcon />
-            </StyledMaterialIcon>
-            <li>Compare</li>
-          </StyledFlexNav>
+            <StyledFlexNav>
+              <StyledMaterialIcon>
+                <MultipleStopIcon />
+              </StyledMaterialIcon>
+              <li>Compare</li>
+            </StyledFlexNav>
           </Link>
           <Link href="/Login" style={{ textDecoration: "none" }}>
             <StyledFlexNav>

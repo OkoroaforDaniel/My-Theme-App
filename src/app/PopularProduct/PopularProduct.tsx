@@ -96,7 +96,7 @@ export default function PopularProduct() {
     <div>
       <StyledPopularDiv1>
         <StyledPopularDiv2>
-            <Slider {...settings}>
+          <Slider {...settings}>
             {data.map((d) => (
               <StyledImageText key={d.name}>
                 <StyledImageSlick>
@@ -107,7 +107,7 @@ export default function PopularProduct() {
                 </div>
               </StyledImageText>
             ))}
-            </Slider>
+          </Slider>
         </StyledPopularDiv2>
       </StyledPopularDiv1>
     </div>

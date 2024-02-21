@@ -13,7 +13,15 @@ import {
   StyledLink,
 } from "../styles/Login.styled";
 
-import { TableContainer, TableRow, TableCell, TableHead, OuterContainer, Image, ImageContainer } from "../styles/Compare.styled";
+import {
+  TableContainer,
+  TableRow,
+  TableCell,
+  TableHead,
+  OuterContainer,
+  Image,
+  ImageContainer,
+} from "../styles/Compare.styled";
 
 export default function page() {
   return (
@@ -38,92 +46,91 @@ export default function page() {
 
       {/* Table */}
       <OuterContainer>
-      <TableContainer>
-        <tbody>
+        <TableContainer>
+          <tbody>
             <TableRow>
-            <TableHead>PRODUCTS</TableHead>
+              <TableHead>PRODUCTS</TableHead>
               <TableCell>
                 <ImageContainer>
-                <Image src="./images/products/img1.jpg" alt="" />
+                  <Image src="./images/products/img1.jpg" alt="" />
                 </ImageContainer>
-              
-              <h4>Long Sleeve Leopard T-Shirt</h4>
-              <p>$250</p>
-                </TableCell>
-              <TableCell>
-              <ImageContainer>
-              <Image src="./images/products/img2.jpg" alt="" />
-              </ImageContainer>
-              <h4>Causal V-Neck Soft Raglan</h4>
-              <p>$200</p>
+
+                <h4>Long Sleeve Leopard T-Shirt</h4>
+                <p>$250</p>
               </TableCell>
               <TableCell>
-              <ImageContainer>
-              <Image src="./images/products/img3.jpg" alt="" />
-              </ImageContainer>
+                <ImageContainer>
+                  <Image src="./images/products/img2.jpg" alt="" />
+                </ImageContainer>
+                <h4>Causal V-Neck Soft Raglan</h4>
+                <p>$200</p>
+              </TableCell>
+              <TableCell>
+                <ImageContainer>
+                  <Image src="./images/products/img3.jpg" alt="" />
+                </ImageContainer>
                 <h4>Hanes Top Men&apos;s Pullover</h4>
                 <p>$210</p>
-                </TableCell>
+              </TableCell>
             </TableRow>
 
             <TableRow>
-            <TableHead>COLLECTION</TableHead>
+              <TableHead>COLLECTION</TableHead>
               <TableCell>Shirt, New Products, T-Shirt</TableCell>
               <TableCell>Shirt, New Products, T-Shirt</TableCell>
               <TableCell>Shirt, New Products, T-Shirt</TableCell>
             </TableRow>
 
             <TableRow>
-            <TableHead>AVAILABILITY</TableHead>
+              <TableHead>AVAILABILITY</TableHead>
               <TableCell>In Stock</TableCell>
               <TableCell>In Stock</TableCell>
               <TableCell>In Stock</TableCell>
             </TableRow>
 
             <TableRow>
-            <TableHead>MATERIAL</TableHead>
+              <TableHead>MATERIAL</TableHead>
               <TableCell>100% Polyester</TableCell>
               <TableCell>100% Polyester</TableCell>
               <TableCell>100% Polyester</TableCell>
             </TableRow>
 
             <TableRow>
-            <TableHead>VENDOR</TableHead>
+              <TableHead>VENDOR</TableHead>
               <TableCell>Lacoste</TableCell>
               <TableCell>Lacoste</TableCell>
               <TableCell>Lacoste</TableCell>
             </TableRow>
 
             <TableRow>
-            <TableHead>SKU</TableHead>
+              <TableHead>SKU</TableHead>
               <TableCell>00105сd-1</TableCell>
               <TableCell>00105сd-1</TableCell>
               <TableCell>00105сd-1</TableCell>
             </TableRow>
 
             <TableRow>
-            <TableHead>COLOR</TableHead>
+              <TableHead>COLOR</TableHead>
               <TableCell>White</TableCell>
               <TableCell>Black</TableCell>
               <TableCell>Blue</TableCell>
             </TableRow>
 
             <TableRow>
-            <TableHead>SIZE</TableHead>
+              <TableHead>SIZE</TableHead>
               <TableCell>20</TableCell>
               <TableCell>22</TableCell>
               <TableCell>XXL</TableCell>
             </TableRow>
 
             <TableRow>
-            <TableHead>BARCODE</TableHead>
+              <TableHead>BARCODE</TableHead>
               <TableCell>1234567890</TableCell>
               <TableCell>1234567890</TableCell>
               <TableCell>1234567890</TableCell>
             </TableRow>
-
-        </tbody>
-      </TableContainer>
+          </tbody>
+        </TableContainer>
       </OuterContainer>
 
       <PopularProduct />

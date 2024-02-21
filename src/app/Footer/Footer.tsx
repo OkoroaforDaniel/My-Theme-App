@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import "@fortawesome/fontawesome-free/css/all.css";
 import {
@@ -25,70 +26,96 @@ export default function Footer() {
     <StyledFooter>
       <StyledInnerFooter>
         <div>
-        <StyledInnerHr>
-        <StyledInnerFooter1>
-          <h3>About The Store</h3>
-          <StyledHr1 />
-          <p>One of the most popular on the web is shopping.</p>
-          <p>Wonder Street, USA, New York</p>
-          <p>+1-541-754-3010</p>
-          <p>hello@livani.com</p>
+          <StyledInnerHr>
+            <StyledInnerFooter1>
+              <h3>About The Store</h3>
+              <StyledHr1 />
+              <p>One of the most popular on the web is shopping.</p>
+              <p>Wonder Street, USA, New York</p>
+              <p>+1-541-754-3010</p>
+              <p>hello@livani.com</p>
 
-          <StyledIcon>
-            <StyledFontAwesomeIcon className="fa-brands fa-x-twitter"></StyledFontAwesomeIcon>
-            <StyledFontAwesomeIcon className="fa-brands fa-facebook-f"></StyledFontAwesomeIcon>
-            <StyledFontAwesomeIcon className="fa-brands fa-instagram"></StyledFontAwesomeIcon>
-            <StyledFontAwesomeIcon className="fa-brands fa-linkedin-in"></StyledFontAwesomeIcon>
-            <StyledFontAwesomeIcon className="fa-brands fa-pinterest-p"></StyledFontAwesomeIcon>
-          </StyledIcon>
-        </StyledInnerFooter1>
-        
-        <StyledHr2 />
-        </StyledInnerHr>
+              <StyledIcon>
+                <StyledFontAwesomeIcon className="fa-brands fa-x-twitter"></StyledFontAwesomeIcon>
+                <StyledFontAwesomeIcon className="fa-brands fa-facebook-f"></StyledFontAwesomeIcon>
+                <StyledFontAwesomeIcon className="fa-brands fa-instagram"></StyledFontAwesomeIcon>
+                <StyledFontAwesomeIcon className="fa-brands fa-linkedin-in"></StyledFontAwesomeIcon>
+                <StyledFontAwesomeIcon className="fa-brands fa-pinterest-p"></StyledFontAwesomeIcon>
+              </StyledIcon>
+            </StyledInnerFooter1>
+
+            <StyledHr2 />
+          </StyledInnerHr>
         </div>
         <div>
           <StyledInnerHr>
-        <StyledInnerFooter1>
-          <h3>Quick Links</h3>
-          <StyledHr1 />
-          <p>About Us</p>
-          <p>Shop Now!</p>
-          <p>Woman&apos;s</p>
-          <p>FAQ&apos;s</p>
-          <p>Contact Us</p>
-          <p>Customer Services</p>
-        </StyledInnerFooter1>
-        
-        <StyledHr2 />
-        </StyledInnerHr>
+            <StyledInnerFooter1>
+              <h3>Quick Links</h3>
+              <StyledHr1 />
+              <Link href="/About-Us" style={{ textDecoration: "none" }}>
+                <p>About Us</p>
+              </Link>
+              <Link
+                href="/electronics-store"
+                style={{ textDecoration: "none" }}
+              >
+                <p>Shop Now!</p>
+              </Link>
+              <Link href="/Categories-3" style={{ textDecoration: "none" }}>
+                <p>Woman&apos;s</p>
+              </Link>
+              <Link href="/Compare" style={{ textDecoration: "none" }}>
+                <p>Compare</p>
+              </Link>
+              <Link href="/#" style={{ textDecoration: "none" }}>
+                <p>Contact Us</p>
+              </Link>
+              <Link href="/Customer-Service" style={{ textDecoration: "none" }}>
+                <p>Customer Services</p>
+              </Link>
+            </StyledInnerFooter1>
+
+            <StyledHr2 />
+          </StyledInnerHr>
         </div>
         <div>
-        <StyledInnerHr>
-        <StyledInnerFooter1>
-          <h3>Customer Support</h3>
-          <StyledHr1 />
-          <p>My Account</p>
-          <p>Checkout</p>
-          <p>Cart</p>
-          <p>FAQ&apos;s</p>
-          <p>Order Tracking</p>
-          <p>Help & Support</p>
-        </StyledInnerFooter1>
-        <StyledHr2 />
-        </StyledInnerHr>
+          <StyledInnerHr>
+            <StyledInnerFooter1>
+              <h3>Customer Support</h3>
+              <StyledHr1 />
+              <Link href="/" style={{ textDecoration: "none" }}>
+                <p>My Account</p>
+              </Link>
+              <Link href="/Checkout" style={{ textDecoration: "none" }}>
+                <p>Checkout</p>
+              </Link>
+              <Link href="/Cart" style={{ textDecoration: "none" }}>
+                <p>Cart</p>
+              </Link>
+              <Link href="/Signup" style={{ textDecoration: "none" }}>
+                <p>Signup</p>
+              </Link>
+              <Link href="/Tracking-Order" style={{ textDecoration: "none" }}>
+                <p>Order Tracking</p>
+              </Link>
+              <Link href="/#" style={{ textDecoration: "none" }}>
+                <p>Login</p>
+              </Link>
+            </StyledInnerFooter1>
+            <StyledHr2 />
+          </StyledInnerHr>
         </div>
         <div>
-        
-        <StyledInnerFooter1>
-          <h3>Newsletter</h3>
-          <StyledHr1 />
-          <p>To get the latest news and latest updates from us.</p>
-          <p>Your E-mail Address:</p>
-          <StyledInputButton>
-            <StyledInput placeholder="Enter your Email" />
-            <StyledSubscribeButton>Subscribe</StyledSubscribeButton>
-          </StyledInputButton>
-        </StyledInnerFooter1>
+          <StyledInnerFooter1>
+            <h3>Newsletter</h3>
+            <StyledHr1 />
+            <p>To get the latest news and latest updates from us.</p>
+            <p>Your E-mail Address:</p>
+            <StyledInputButton>
+              <StyledInput placeholder="Enter your Email" />
+              <StyledSubscribeButton>Subscribe</StyledSubscribeButton>
+            </StyledInputButton>
+          </StyledInnerFooter1>
         </div>
       </StyledInnerFooter>
       <StyledHr3 />

@@ -5,24 +5,24 @@ const GridContainer1 = styled.div`
   margin-left: 10%;
   margin-bottom: 100px;
 
-@media screen and (max-width: 570px) {
+  @media screen and (max-width: 570px) {
     margin-right: 1%;
     margin-left: 1%;
-}
+  }
   p {
     color: gray;
     margin-bottom: 20px;
     font-size: 14px;
     line-height: 2;
     span {
-        height: 5px;
-        width: 5px;
-        background-color: #bbb;
-        border-radius: 50%;
-        display: inline-block;
-        background-color: #F33A6A;
-        // margin-top: -100%;
-        margin-bottom: 2px;
+      height: 5px;
+      width: 5px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      background-color: #f33a6a;
+      // margin-top: -100%;
+      margin-bottom: 2px;
     }
   }
   h2 {
@@ -34,7 +34,4 @@ const GridContainer1 = styled.div`
   }
 `;
 
-
-export {
-  GridContainer1,
-};
+export { GridContainer1 };

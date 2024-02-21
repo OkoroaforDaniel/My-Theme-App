@@ -4,7 +4,7 @@ const GridContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-//   margin-bottom: -100px;
+  //   margin-bottom: -100px;
   margin-left: 1%;
   margin-right: 1%;
   @media screen and (max-width: 969px) {
@@ -82,7 +82,7 @@ const StyledCategoriesButton8 = styled.button`
 const GridItem1 = styled.div`
   position: relative;
   overflow: hidden;
-//   height: 100%;
+  //   height: 100%;
   &:hover ${Image} {
     transform: scale(1.1);
   }

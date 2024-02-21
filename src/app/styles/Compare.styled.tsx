@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 const OuterContainer = styled.div`
-overflow-x: auto;
-min-width: 100%;
-padding-right: 10%;
-padding-left: 10%;
-margin-bottom: 100px;
+  overflow-x: auto;
+  min-width: 100%;
+  padding-right: 10%;
+  padding-left: 10%;
+  margin-bottom: 100px;
 
   @media screen and (max-width: 1088px) {
     // padding-right: 1%;
@@ -15,7 +15,7 @@ margin-bottom: 100px;
     padding-right: 10%;
     padding-left: 10%;
   }
-`
+`;
 
 const TableContainer = styled.table`
   border-collapse: collapse;
@@ -27,24 +27,24 @@ const TableRow = styled.tr`
 `;
 
 const Image = styled.img`
-width: 95%;
-padding-left: 20px;
-padding-bottom: 20px;
+  width: 95%;
+  padding-left: 20px;
+  padding-bottom: 20px;
 
-@media screen and (max-width: 1088px) {
-  width: 250px;
-  height: 300px;
-  padding-left: 0;
-}
+  @media screen and (max-width: 1088px) {
+    width: 250px;
+    height: 300px;
+    padding-left: 0;
+  }
 
-transition: transform 0.8s ease;
+  transition: transform 0.8s ease;
 `;
 
 const ImageContainer = styled.div`
-&:hover ${Image} {
-  transform: scale(1.1);
-}
-`
+  &:hover ${Image} {
+    transform: scale(1.1);
+  }
+`;
 
 const TableCell = styled.td`
   border: 1px solid #ddd;
@@ -60,16 +60,16 @@ const TableCell = styled.td`
 `;
 
 const TableHead = styled.th`
-border: 1px solid #ddd;
-padding: 8px;
+  border: 1px solid #ddd;
+  padding: 8px;
 `;
 
 export {
-    TableContainer,
-    TableRow,
-    TableCell,
-    TableHead,
-    OuterContainer,
-    Image,
-    ImageContainer,
-}
+  TableContainer,
+  TableRow,
+  TableCell,
+  TableHead,
+  OuterContainer,
+  Image,
+  ImageContainer,
+};

@@ -7,7 +7,12 @@ import PopularProduct from "../PopularProduct/PopularProduct";
 import InstagramaImage from "../InstagramImage/InstagramaImage";
 import Footer from "../Footer/Footer";
 
-import { GridContainer, GridItem, BelowImage, Image, } from "../styles/Grid3.styled";
+import {
+  GridContainer,
+  GridItem,
+  BelowImage,
+  Image,
+} from "../styles/Grid3.styled";
 
 import {
   StyledH2H4,
@@ -40,78 +45,131 @@ export default function page() {
 
       <GridContainer>
         <GridItem>
-        <Image src="./images/products/img4.jpg" alt="" />
-        <BelowImage>
-          <p>Multicoloured Technical Trainers <span>$450.00</span></p>
-          <p>Faux Shearling Double Coat <span>$250.00</span></p>
-          <p>Push Up Low Rise Jeans <span>$100.00</span></p>
-        </BelowImage>
+          <Image src="./images/products/img4.jpg" alt="" />
+          <BelowImage>
+            <p>
+              Multicoloured Technical Trainers <span>$450.00</span>
+            </p>
+            <p>
+              Faux Shearling Double Coat <span>$250.00</span>
+            </p>
+            <p>
+              Push Up Low Rise Jeans <span>$100.00</span>
+            </p>
+          </BelowImage>
         </GridItem>
         <GridItem>
           <Image src="./images/products/img5.jpg" alt="" />
           <BelowImage>
-          <p>Multicoloured Technical Trainers <span>$450.00</span></p>
-          <p>Faux Shearling Double Coat <span>$250.00</span></p>
-          <p>Push Up Low Rise Jeans <span>$100.00</span></p>
-        </BelowImage>
-          </GridItem>
-          <GridItem>
+            <p>
+              Multicoloured Technical Trainers <span>$450.00</span>
+            </p>
+            <p>
+              Faux Shearling Double Coat <span>$250.00</span>
+            </p>
+            <p>
+              Push Up Low Rise Jeans <span>$100.00</span>
+            </p>
+          </BelowImage>
+        </GridItem>
+        <GridItem>
           <Image src="./images/products/img7.jpg" alt="" />
           <BelowImage>
-          <p>Multicoloured Technical Trainers <span>$450.00</span></p>
-          <p>Faux Shearling Double Coat <span>$250.00</span></p>
-          <p>Push Up Low Rise Jeans <span>$100.00</span></p>
-        </BelowImage>
-          </GridItem>
-          <GridItem>
+            <p>
+              Multicoloured Technical Trainers <span>$450.00</span>
+            </p>
+            <p>
+              Faux Shearling Double Coat <span>$250.00</span>
+            </p>
+            <p>
+              Push Up Low Rise Jeans <span>$100.00</span>
+            </p>
+          </BelowImage>
+        </GridItem>
+        <GridItem>
           <Image src="./images/products/img8.jpg" alt="" />
           <BelowImage>
-          <p>Multicoloured Technical Trainers <span>$450.00</span></p>
-          <p>Faux Shearling Double Coat <span>$250.00</span></p>
-          <p>Push Up Low Rise Jeans <span>$100.00</span></p>
-        </BelowImage>
-          </GridItem>
-          <GridItem>
+            <p>
+              Multicoloured Technical Trainers <span>$450.00</span>
+            </p>
+            <p>
+              Faux Shearling Double Coat <span>$250.00</span>
+            </p>
+            <p>
+              Push Up Low Rise Jeans <span>$100.00</span>
+            </p>
+          </BelowImage>
+        </GridItem>
+        <GridItem>
           <Image src="./images/products/img9.jpg" alt="" />
           <BelowImage>
-          <p>Multicoloured Technical Trainers <span>$450.00</span></p>
-          <p>Faux Shearling Double Coat <span>$250.00</span></p>
-          <p>Push Up Low Rise Jeans <span>$100.00</span></p>
-        </BelowImage>
-          </GridItem>
-          <GridItem>
+            <p>
+              Multicoloured Technical Trainers <span>$450.00</span>
+            </p>
+            <p>
+              Faux Shearling Double Coat <span>$250.00</span>
+            </p>
+            <p>
+              Push Up Low Rise Jeans <span>$100.00</span>
+            </p>
+          </BelowImage>
+        </GridItem>
+        <GridItem>
           <Image src="./images/products/img10.jpg" alt="" />
           <BelowImage>
-          <p>Multicoloured Technical Trainers <span>$450.00</span></p>
-          <p>Faux Shearling Double Coat <span>$250.00</span></p>
-          <p>Push Up Low Rise Jeans <span>$100.00</span></p>
-        </BelowImage>
-          </GridItem>
-          <GridItem>
+            <p>
+              Multicoloured Technical Trainers <span>$450.00</span>
+            </p>
+            <p>
+              Faux Shearling Double Coat <span>$250.00</span>
+            </p>
+            <p>
+              Push Up Low Rise Jeans <span>$100.00</span>
+            </p>
+          </BelowImage>
+        </GridItem>
+        <GridItem>
           <Image src="./images/products/img11.jpg" alt="" />
           <BelowImage>
-          <p>Multicoloured Technical Trainers <span>$450.00</span></p>
-          <p>Faux Shearling Double Coat <span>$250.00</span></p>
-          <p>Push Up Low Rise Jeans <span>$100.00</span></p>
-        </BelowImage>
-          </GridItem>
-          <GridItem>
+            <p>
+              Multicoloured Technical Trainers <span>$450.00</span>
+            </p>
+            <p>
+              Faux Shearling Double Coat <span>$250.00</span>
+            </p>
+            <p>
+              Push Up Low Rise Jeans <span>$100.00</span>
+            </p>
+          </BelowImage>
+        </GridItem>
+        <GridItem>
           <Image src="./images/products/img12.jpg" alt="" />
           <BelowImage>
-          <p>Multicoloured Technical Trainers <span>$450.00</span></p>
-          <p>Faux Shearling Double Coat <span>$250.00</span></p>
-          <p>Push Up Low Rise Jeans <span>$100.00</span></p>
-        </BelowImage>
-          </GridItem>
-          <GridItem>
+            <p>
+              Multicoloured Technical Trainers <span>$450.00</span>
+            </p>
+            <p>
+              Faux Shearling Double Coat <span>$250.00</span>
+            </p>
+            <p>
+              Push Up Low Rise Jeans <span>$100.00</span>
+            </p>
+          </BelowImage>
+        </GridItem>
+        <GridItem>
           <Image src="./images/products/img13.jpg" alt="" />
           <BelowImage>
-          <p>Multicoloured Technical Trainers <span>$450.00</span></p>
-          <p>Faux Shearling Double Coat <span>$250.00</span></p>
-          <p>Push Up Low Rise Jeans <span>$100.00</span></p>
-        </BelowImage>
+            <p>
+              Multicoloured Technical Trainers <span>$450.00</span>
+            </p>
+            <p>
+              Faux Shearling Double Coat <span>$250.00</span>
+            </p>
+            <p>
+              Push Up Low Rise Jeans <span>$100.00</span>
+            </p>
+          </BelowImage>
         </GridItem>
-
       </GridContainer>
 
       <PopularProduct />

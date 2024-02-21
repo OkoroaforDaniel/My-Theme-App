@@ -7,7 +7,14 @@ import PopularProduct from "../PopularProduct/PopularProduct";
 import InstagramaImage from "../InstagramImage/InstagramaImage";
 import Footer from "../Footer/Footer";
 
-import { Image, GridContainer, GridItem, StyledH5H1ButtonWhite, StyledH5H1Button, StyledCategoriesButton1 } from "../styles/Categories-2.styled";
+import {
+  Image,
+  GridContainer,
+  GridItem,
+  StyledH5H1ButtonWhite,
+  StyledH5H1Button,
+  StyledCategoriesButton1,
+} from "../styles/Categories-2.styled";
 
 import {
   StyledH2H4,
@@ -32,8 +39,8 @@ export default function page() {
               <Link href="/" style={{ textDecoration: "none" }}>
                 <StyledLink>Home</StyledLink>
               </Link>
-            </span>&apos;
-            | <span>Categories</span>
+            </span>
+            &apos; | <span>Categories</span>
           </h5>
         </StyledLoginH4>
       </StyledH2H4>

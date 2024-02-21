@@ -7,13 +7,13 @@ const GridContainer1 = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-//   justify-content: center;
-//   height: 100vh;
+  //   justify-content: center;
+  //   height: 100vh;
 
-@media screen and (max-width: 810px) {
+  @media screen and (max-width: 810px) {
     margin-right: 0;
     margin-left: 0;
-}
+  }
   p {
     margin-bottom: 10px;
     font-size: 13px;
@@ -35,32 +35,27 @@ const GridContainer1 = styled.div`
 const GridItem = styled.div`
   width: 50%;
   @media screen and (max-width: 560px) {
-   width: 80%;
-}
-h2 {
+    width: 80%;
+  }
+  h2 {
     align-items: center;
     margin-bottom: 40px;
-}
+  }
 `;
 
 const StyledButton1 = styled.button`
-background-color: #F33A6A;
-color: white;
-border: none;
-padding: 15px 20px;
-width: 100%;
-transition: background-color 1s ease;
+  background-color: #f33a6a;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  width: 100%;
+  transition: background-color 1s ease;
 
-&:hover {
-  background-color: transparent;
-  border: 1px solid black;
-  color: black;
-}
+  &:hover {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+  }
 `;
 
-
-export {
-  GridContainer1,
-  StyledButton1,
-  GridItem,
-};
+export { GridContainer1, StyledButton1, GridItem };

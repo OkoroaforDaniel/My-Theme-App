@@ -23,7 +23,7 @@ const StyledInnerFooter = styled.div`
 `;
 
 const StyledInnerFooter1 = styled.div`
-width: 100%;
+  width: 100%;
   // width: 23%;
   //   h3 {
   //     padding-bottom: 25px;
@@ -85,8 +85,7 @@ const StyledFontAwesomeIcon = styled.i`
   align-items: center;
 `;
 
-const Image =styled.img`
-`;
+const Image = styled.img``;
 
 const StyledBaseFooter = styled.div`
   display: flex;
@@ -130,14 +129,13 @@ const StyledHr1 = styled.hr`
 `;
 
 const StyledHr2 = styled.hr`
-border: solid 0.0001px;
-color: #202020;
-margin-top: -100px;
-margin-bottom: -180px;
-// margin-left: -50px;
-// position: absolute;
+  border: solid 0.0001px;
+  color: #202020;
+  margin-top: -100px;
+  margin-bottom: -180px;
+  // margin-left: -50px;
+  // position: absolute;
 `;
-
 
 const StyledHr3 = styled.hr`
   border: solid 0.001px;
@@ -147,9 +145,15 @@ const StyledHr3 = styled.hr`
 `;
 
 const StyledInnerHr = styled.div`
-display: flex;
-// width: 500px;
-`
+  display: flex;
+  p {
+    color: white;
+
+    &:hover {
+      color: #f33a6a;
+    }
+  }
+`;
 
 export {
   StyledFooter,

@@ -1,23 +1,23 @@
 [
-    {
+  {
     "id": 0,
     "image": "./images/main-banner2.jpg",
     "text1": "Exclusive Offer!",
     "title": "Spring-Show!",
     "text2": "Leap year offer 'Sales Must-Haves"
-},
-{
+  },
+  {
     "id": 1,
     "image": "./images/main-banner3.jpg",
     "text1": "Buy Now From Livani!",
     "title": "New Season Canvas!",
     "text2": "Take 20% off 'Sales Must-Haves"
-},    
-{
+  },
+  {
     "id": 2,
     "image": "./images/main-banner1.jpg",
     "text1": "Limited Time Offer!",
     "title": "Winter-Spring!",
     "text2": "Take 20% off 'Sales Must-Haves"
-}
+  }
 ]

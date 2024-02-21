@@ -16,22 +16,25 @@ const StyledNav = styled.nav<StyledNavProps>`
 `;
 
 const StyledNavLogo = styled.div`
-padding-left: 10%;
-@media screen and (max-width: 1088px) {
-  padding-left: 1%;
-}
-@media screen and (max-width: 985px) {
   padding-left: 10%;
-}
-@media screen and (max-width: 460px) {
-  padding-left: 1%;
-}
-`
+  @media screen and (max-width: 1088px) {
+    padding-left: 1%;
+  }
+  @media screen and (max-width: 985px) {
+    padding-left: 10%;
+  }
+  @media screen and (max-width: 460px) {
+    padding-left: 1%;
+  }
+`;
 
 const StyledNavIcon = styled.div`
-padding-right: 10%;
+  padding-right: 10%;
   span {
     margin-right: 20px;
+    &:hover {
+      cursor: pointer;
+    }
   }
   @media screen and (max-width: 1088px) {
     padding-right: 1%;
@@ -61,7 +64,8 @@ const StyledUl = styled.ul<{ $isNavVisible: boolean }>`
     max-height: ${({ $isNavVisible }) => ($isNavVisible ? "500px" : "0")};
     max-width: 100%;
     margin-top: ${({ $isNavVisible }) => ($isNavVisible ? "550px" : "0")};
-    position: ${({ $isNavVisible }) => ($isNavVisible ? "relative" : "absolute")};;
+    position: ${({ $isNavVisible }) =>
+      $isNavVisible ? "relative" : "absolute"};
     // margin-top: 550px;
     // display: ${({ $isNavVisible }) => ($isNavVisible ? "block" : "none")};
     padding-left: 5%;
@@ -71,7 +75,6 @@ const StyledUl = styled.ul<{ $isNavVisible: boolean }>`
     margin-left: -100%;
     margin-right: -100%;
     transition: max-height 0.6s ease;
-
   }
   @media screen and (max-width: 500px) {
     padding-left: 10%;
@@ -92,8 +95,7 @@ const StyledLi = styled.li`
 
 const Logo = styled.img``;
 
-
-const StyledHandbuger2 = styled.span<{ $isHandbugerVisible : boolean }>`
+const StyledHandbuger2 = styled.span<{ $isHandbugerVisible: boolean }>`
   display: none;
   // visibility: hidden;
   width: 35px;
@@ -103,23 +105,37 @@ const StyledHandbuger2 = styled.span<{ $isHandbugerVisible : boolean }>`
   @media screen and (max-width: 985px) {
     // visibility: visible;
     color: #f33a6a;
-    display: ${({ $isHandbugerVisible }) => ($isHandbugerVisible ? "none" : "block")};
+    display: ${({ $isHandbugerVisible }) =>
+      $isHandbugerVisible ? "none" : "block"};
   }
 `;
 
-const StyledHandbuger2Xmark = styled.span<{ $isHandbugerXmarkVisible : boolean }>`
-display: none;
-// visibility: hidden;
-// width: 35px;
-// height: 25px;
-// background-color: #dddd;
-// padding-left: 10px;
-@media screen and (max-width: 985px) {
-  // font-size: 25px;
-  // visibility: visible;
-  color: #f33a6a;
-  display: ${({ $isHandbugerXmarkVisible }) => ($isHandbugerXmarkVisible ? "block" : "none")};
-}
+const StyledXmark = styled.i`
+  margin-top: 5px;
+  &:hover {
+    cursor: pointer;
+  }
+`;
+
+const StyledHandbuger2Xmark = styled.span<{
+  $isHandbugerXmarkVisible: boolean;
+}>`
+  display: none;
+  // visibility: hidden;
+  // width: 35px;
+  // height: 25px;
+  // background-color: #dddd;
+  // padding-left: 10px;
+  @media screen and (max-width: 985px) {
+    // font-size: 25px;
+    // visibility: visible;
+    color: #f33a6a;
+    display: ${({ $isHandbugerXmarkVisible }) =>
+      $isHandbugerXmarkVisible ? "block" : "none"};
+  }
+  &:hover ${StyledXmark} {
+    cursor: pointer;
+  }
 `;
 
 const StyledHomeHover = styled.div`
@@ -199,6 +215,7 @@ const StyledHome = styled.div`
   }
   &:hover ${StyledHomeP1} {
     color: #f33a6a;
+    cursor: pointer;
   }
 `;
 
@@ -262,6 +279,7 @@ const StyledShopLi = styled.li`
 const StyledShopP1 = styled.div`
   &:hover {
     color: #f33a6a;
+    cursor: pointer;
   }
   @media screen and (max-width: 985px) {
     padding-top: 20px;
@@ -351,6 +369,7 @@ const StyledPagesLi = styled.li`
 const StyledPagesP1 = styled.div`
   &:hover {
     color: #f33a6a;
+    cursor: pointer;
   }
   @media screen and (max-width: 985px) {
     padding-bottom: 20px;
@@ -442,6 +461,7 @@ const StyledWomenLi = styled.li`
 const StyledWomenP1 = styled.div`
   &:hover {
     color: #f33a6a;
+    cursor: pointer;
   }
   @media screen and (max-width: 985px) {
     padding-bottom: 20px;
@@ -585,6 +605,7 @@ const StyledMenLi = styled.li`
 const StyledMenP1 = styled.div`
   &:hover {
     color: #f33a6a;
+    cursor: pointer;
   }
   @media screen and (max-width: 985px) {
     padding-bottom: 20px;
@@ -723,6 +744,7 @@ const StyledBlogLi = styled.li`
 const StyledBlogP1 = styled.div`
   &:hover {
     color: #f33a6a;
+    cursor: pointer;
   }
   @media screen and (max-width: 985px) {
     padding-bottom: 20px;
@@ -736,6 +758,7 @@ const StyledBlogP1 = styled.div`
 const StyledSaleP1 = styled.div`
   &:hover {
     color: #f33a6a;
+    cursor: pointer;
   }
   @media screen and (max-width: 985px) {
     padding-bottom: 20px;
@@ -814,14 +837,6 @@ const StyledInfoIcon = styled.i`
   margin-right: 10px;
 `;
 
-const StyledXmark = styled.i`
-  margin-top: 5px;
-`;
-// const StyledAboutXmark = styled.div`
-// display: flex;
-// justify-content: space-between;
-// `
-
 const StyledAboutXmark = styled.div``;
 
 const StyledAboutXmarkDiv = styled.div`
@@ -883,9 +898,13 @@ const StyledSearchAboutXmark = styled.div`
   ${StyledXmark} {
     color: white;
     font-size: 30px;
+    &:hover {
+      cursor: pointer;
+    }
   }
   &:hover ${StyledXmark} {
     color: #f33a6a;
+    cursor: pointer;
   }
 `;
 
@@ -919,7 +938,6 @@ const StyledSearchNavSlide = styled.div<{ $isVisible: boolean }>`
     margin-bottom: -15px;
   }
 `;
-
 
 const StyledSearchinput = styled.input`
   padding: 10px;

@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
-const Image = styled.img`
-`;
+const Image = styled.img``;
 
 const StyledPartner = styled.div`
   background-color: #f5f5f5;
@@ -22,4 +21,4 @@ const StyledPartnerImageSlick = styled.div`
     width: 80px;
   }
 `;
-export { StyledPartner, StyledPartnerText, StyledPartnerImageSlick, Image, };
+export { StyledPartner, StyledPartnerText, StyledPartnerImageSlick, Image };

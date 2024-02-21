@@ -109,42 +109,41 @@ const TableCell = styled.td`
 `;
 
 const StyledButton1 = styled.button`
-background-color: #F33A6A;
-color: white;
-border: none;
-padding: 15px 20px;
-width: 100%;
-transition: background-color 1s ease;
+  background-color: #f33a6a;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  width: 100%;
+  transition: background-color 1s ease;
 
-&:hover {
-  background-color: transparent;
-  border: 1px solid black;
-  color: black;
-}
+  &:hover {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+  }
 `;
 
 const RadioButton = styled.div`
-padding: 40px;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-margin-top: 30px;
-p {
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+  p {
     color: gray;
     font-size: 15px;
     line-height: 1.8;
-}
-
+  }
 `;
 
 const RadioStyle = styled.div`
-display: flex;
-margin-bottom: 15px;
+  display: flex;
+  margin-bottom: 15px;
 
-p {
+  p {
     color: black;
     font-size: 13px;
     font-weight: bold;
     margin-top: 9px;
-}
+  }
 `;
 
 export {

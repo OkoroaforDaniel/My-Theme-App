@@ -39,7 +39,7 @@ export default function page() {
       </StyledH2H4>
 
       <CartDiv>
-          <h3>No Cart items Available</h3>
+        <h3>No Cart items Available</h3>
       </CartDiv>
 
       <PopularProduct />

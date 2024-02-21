@@ -21,7 +21,7 @@ import { StyledFollowDiv } from "../styles/Blog.styled";
 export default function InstagramaImage() {
   return (
     <div>
-            <StyledFollowDiv>
+      <StyledFollowDiv>
         <InstagramIcon />
         <p>FOLLOW US ON @ LIVANI</p>
       </StyledFollowDiv>

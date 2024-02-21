@@ -111,21 +111,20 @@ export default function page() {
 
             <RadioButton>
               <RadioStyle>
-              <Radio />
-              <p>Direct Order</p>
+                <Radio />
+                <p>Direct Order</p>
               </RadioStyle>
               <p>
-              Make your payment directly into our bank account. Please use your Order ID 
-              as the payment reference. Your order will not be shipped until the funds have cleared in our 
-              account.
+                Make your payment directly into our bank account. Please use
+                your Order ID as the payment reference. Your order will not be
+                shipped until the funds have cleared in our account.
               </p>
               <RadioStyle>
-              <Radio />
-              <p>Stripe</p>
+                <Radio />
+                <p>Stripe</p>
               </RadioStyle>
 
               <StyledButton1>PLEASE LOGIN TO COMPLETE YOUR ORDER</StyledButton1>
-              
             </RadioButton>
           </GridItem2>
         </GridContainer2>

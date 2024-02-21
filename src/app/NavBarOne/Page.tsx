@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import Link from "next/link";
 import "@fortawesome/fontawesome-free/css/all.css";
@@ -81,10 +81,10 @@ export default function Page() {
   const handleDehazeIconClick2 = () => {
     setIsStyledUlVisible(true);
     // setIsStyledUlVisible(!isStyledUlVisible);
-  }
+  };
   const handleDehazeIconXmarkClick2 = () => {
     setIsStyledUlVisible(false);
-  }
+  };
 
   const handleAboutXmarkClick = () => {
     setIsNavSlideVisible(false);
@@ -113,7 +113,7 @@ export default function Page() {
       </StyledNavLogo>
 
       {/* <StyledUl isNavSlideVisible={isNavSlideVisible}> */}
-      <StyledUl $isNavVisible={isStyledUlVisible} >
+      <StyledUl $isNavVisible={isStyledUlVisible}>
         <StyledHomeLi>
           <StyledHome>
             <StyledHomeP1>
@@ -166,31 +166,19 @@ export default function Page() {
               <p>Covid-19 Store</p>
             </Link>
             <StyledDottedHr /> */}
-            <Link
-              href="/grocery-store"
-              style={{ textDecoration: "none" }}
-            >
+            <Link href="/grocery-store" style={{ textDecoration: "none" }}>
               <p>Grocery Store</p>
             </Link>
             <StyledDottedHr />
-            <Link
-              href="/electronics-store"
-              style={{ textDecoration: "none" }}
-            >
+            <Link href="/electronics-store" style={{ textDecoration: "none" }}>
               <p>Electronics Store</p>
             </Link>
             <StyledDottedHr />
-            <Link
-              href="/furniture-store"
-              style={{ textDecoration: "none" }}
-            >
+            <Link href="/furniture-store" style={{ textDecoration: "none" }}>
               <p>Furniture Store</p>
             </Link>
             <StyledDottedHr />
-            <Link
-              href="/jewelry-store"
-              style={{ textDecoration: "none" }}
-            >
+            <Link href="/jewelry-store" style={{ textDecoration: "none" }}>
               <p>Jewelry Store</p>
             </Link>
           </StyledHomeHover>
@@ -222,16 +210,10 @@ export default function Page() {
                 >
                   <p>Left Sidebar with Categories</p>
                 </Link> */}
-                <Link
-                  href="/Categories-2"
-                  style={{ textDecoration: "none" }}
-                >
+                <Link href="/Categories-2" style={{ textDecoration: "none" }}>
                   <p>Categories (2 in Row)</p>
                 </Link>
-                <Link
-                  href="/Categories-3"
-                  style={{ textDecoration: "none" }}
-                >
+                <Link href="/Categories-3" style={{ textDecoration: "none" }}>
                   <p>Categories Full width (3 in Row)</p>
                 </Link>
               </StyledShopHoverInner>
@@ -279,10 +261,7 @@ export default function Page() {
                   <p>With Sidebar Full Width</p>
                 </Link> */}
 
-                <Link
-                  href="/Categories-1"
-                  style={{ textDecoration: "none" }}
-                >
+                <Link href="/Categories-1" style={{ textDecoration: "none" }}>
                   {" "}
                   <p>Categories (1 in Row)</p>
                 </Link>
@@ -336,10 +315,7 @@ export default function Page() {
               <StyledPagesHoverInner>
                 <h5>PAGES</h5>
                 <StyledPagesHr />
-                <Link
-                  href="/About-Us"
-                  style={{ textDecoration: "none" }}
-                >
+                <Link href="/About-Us" style={{ textDecoration: "none" }}>
                   <p>About Us</p>
                 </Link>
 
@@ -354,10 +330,7 @@ export default function Page() {
                   <p>Login</p>
                 </Link>
 
-                <Link
-                  href="/Signup"
-                  style={{ textDecoration: "none" }}
-                >
+                <Link href="/Signup" style={{ textDecoration: "none" }}>
                   <p>Signup</p>
                 </Link>
 
@@ -379,10 +352,7 @@ export default function Page() {
                   <p>Coming Soon</p>
                 </Link> */}
 
-                <Link
-                  href="/Tracking-Order"
-                  style={{ textDecoration: "none" }}
-                >
+                <Link href="/Tracking-Order" style={{ textDecoration: "none" }}>
                   <p>Tracking Order</p>
                 </Link>
 
@@ -398,17 +368,11 @@ export default function Page() {
                 <div>
                   <h5>GALLERY</h5>
                   <StyledPagesHr />
-                  <Link
-                    href="/Page-Grid-2"
-                    style={{ textDecoration: "none" }}
-                  >
+                  <Link href="/Page-Grid-2" style={{ textDecoration: "none" }}>
                     <p>Grid (2 in Row)</p>
                   </Link>
 
-                  <Link
-                    href="/Page-Grid-3"
-                    style={{ textDecoration: "none" }}
-                  >
+                  <Link href="/Page-Grid-3" style={{ textDecoration: "none" }}>
                     <p>Grid (3 in Row)</p>
                   </Link>
 
@@ -419,25 +383,16 @@ export default function Page() {
                     <p>Grid Full Width (3 in Row)</p>
                   </Link>
 
-                  <Link
-                    href="/Page-Grid-4"
-                    style={{ textDecoration: "none" }}
-                  >
+                  <Link href="/Page-Grid-4" style={{ textDecoration: "none" }}>
                     <p>Grid Full Width (4 in Row)</p>
                   </Link>
 
                   <h5>MY ACCOUNT</h5>
                   <StyledPagesHr />
-                  <Link
-                    href="/Login"
-                    style={{ textDecoration: "none" }}
-                  >
+                  <Link href="/Login" style={{ textDecoration: "none" }}>
                     <p>Login</p>
                   </Link>
-                  <Link
-                    href="/Signup"
-                    style={{ textDecoration: "none" }}
-                  >
+                  <Link href="/Signup" style={{ textDecoration: "none" }}>
                     <p>Signup</p>
                   </Link>
                 </div>
@@ -447,10 +402,7 @@ export default function Page() {
                 <div>
                   <h5>CATEGORIES</h5>
                   <StyledPagesHr />
-                  <Link
-                    href="/Categories-2"
-                    style={{ textDecoration: "none" }}
-                  >
+                  <Link href="/Categories-2" style={{ textDecoration: "none" }}>
                     <p>Categories (2 in Row)</p>
                   </Link>
 
@@ -461,33 +413,21 @@ export default function Page() {
                     <p>Categories Full Width</p>
                   </Link>
 
-                  <Link
-                    href="/Categories-1"
-                    style={{ textDecoration: "none" }}
-                  >
+                  <Link href="/Categories-1" style={{ textDecoration: "none" }}>
                     <p>Categories (1 in Row)</p>
                   </Link>
 
-                  <Link
-                    href="/Categories-3"
-                    style={{ textDecoration: "none" }}
-                  >
+                  <Link href="/Categories-3" style={{ textDecoration: "none" }}>
                     <p>Categories Full Width (3 in Row)</p>
                   </Link>
 
                   <h5>LOOKBOOK</h5>
                   <StyledPagesHr />
-                  <Link
-                    href="/Grid-3"
-                    style={{ textDecoration: "none" }}
-                  >
+                  <Link href="/Grid-3" style={{ textDecoration: "none" }}>
                     <p>Grid (3 in Row)</p>
                   </Link>
 
-                  <Link
-                    href="/Grid-4"
-                    style={{ textDecoration: "none" }}
-                  >
+                  <Link href="/Grid-4" style={{ textDecoration: "none" }}>
                     <p>Grid Full Width (4 in Row)</p>
                   </Link>
                 </div>
@@ -500,24 +440,15 @@ export default function Page() {
                   <p>Cart</p>
                 </Link>
 
-                <Link
-                  href="/Checkout"
-                  style={{ textDecoration: "none" }}
-                >
+                <Link href="/Checkout" style={{ textDecoration: "none" }}>
                   <p>Checkout</p>
                 </Link>
 
-                <Link
-                  href="/Compare"
-                  style={{ textDecoration: "none" }}
-                >
+                <Link href="/Compare" style={{ textDecoration: "none" }}>
                   <p>Compare</p>
                 </Link>
 
-                <Link
-                  href="/"
-                  style={{ textDecoration: "none" }}
-                >
+                <Link href="/" style={{ textDecoration: "none" }}>
                   <p>My Account</p>
                 </Link>
 
@@ -528,10 +459,7 @@ export default function Page() {
                   <p>Sizing Guide</p>
                 </Link> */}
 
-                <Link
-                  href="/Tracking-Order"
-                  style={{ textDecoration: "none" }}
-                >
+                <Link href="/Tracking-Order" style={{ textDecoration: "none" }}>
                   <p>Tracking Order</p>
                 </Link>
 
@@ -585,16 +513,10 @@ export default function Page() {
                 >
                   <p>Left Sidebar with Categories</p>
                 </Link> */}
-                <Link
-                  href="/Categories-2"
-                  style={{ textDecoration: "none" }}
-                >
+                <Link href="/Categories-2" style={{ textDecoration: "none" }}>
                   <p>Categories (2 in Row)</p>
                 </Link>
-                <Link
-                  href="/Categories-3"
-                  style={{ textDecoration: "none" }}
-                >
+                <Link href="/Categories-3" style={{ textDecoration: "none" }}>
                   <p>Categories Full width (3 in Row)</p>
                 </Link>
               </StyledWomenHoverInner>
@@ -642,10 +564,7 @@ export default function Page() {
                   <p>With Sidebar Full Width</p>
                 </Link> */}
 
-                <Link
-                  href="/Categories-1"
-                  style={{ textDecoration: "none" }}
-                >
+                <Link href="/Categories-1" style={{ textDecoration: "none" }}>
                   {" "}
                   <p>Categories (1 in Row)</p>
                 </Link>
@@ -693,16 +612,10 @@ export default function Page() {
                 >
                   <p>Left Sidebar with Categories</p>
                 </Link> */}
-                <Link
-                  href="/Categories-2"
-                  style={{ textDecoration: "none" }}
-                >
+                <Link href="/Categories-2" style={{ textDecoration: "none" }}>
                   <p>Categories (2 in Row)</p>
                 </Link>
-                <Link
-                  href="/Categories-3"
-                  style={{ textDecoration: "none" }}
-                >
+                <Link href="/Categories-3" style={{ textDecoration: "none" }}>
                   <p>Categories Full width (3 in Row)</p>
                 </Link>
               </StyledMenHoverInner>
@@ -750,10 +663,7 @@ export default function Page() {
                   <p>With Sidebar Full Width</p>
                 </Link> */}
 
-                <Link
-                  href="/Categories-1"
-                  style={{ textDecoration: "none" }}
-                >
+                <Link href="/Categories-1" style={{ textDecoration: "none" }}>
                   {" "}
                   <p>Categories (1 in Row)</p>
                 </Link>
@@ -841,14 +751,20 @@ export default function Page() {
         </span>
 
         {/* <span > */}
-          <StyledHandbuger2 $isHandbugerVisible={isStyledUlVisible} onClick={handleDehazeIconClick2}>
+        <StyledHandbuger2
+          $isHandbugerVisible={isStyledUlVisible}
+          onClick={handleDehazeIconClick2}
+        >
           <DehazeIcon />
-          </StyledHandbuger2>
+        </StyledHandbuger2>
 
-          <StyledHandbuger2Xmark $isHandbugerXmarkVisible={isStyledUlVisible} onClick={handleDehazeIconXmarkClick2}>
-            <StyledXmark className="fa-solid fa-xmark"></StyledXmark>
-          </StyledHandbuger2Xmark>
-          
+        <StyledHandbuger2Xmark
+          $isHandbugerXmarkVisible={isStyledUlVisible}
+          onClick={handleDehazeIconXmarkClick2}
+        >
+          <StyledXmark className="fa-solid fa-xmark"></StyledXmark>
+        </StyledHandbuger2Xmark>
+
         {/* </span> */}
       </StyledNavIcon>
 
@@ -928,7 +844,6 @@ export default function Page() {
           </StyledSearchAboutXmark>
         </StyledSearchAboutXmarkDiv>
       </StyledSearchNavSlide>
-
     </StyledNav>
   );
 }

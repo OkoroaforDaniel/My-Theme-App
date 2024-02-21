@@ -8,9 +8,9 @@ import InstagramaImage from "../InstagramImage/InstagramaImage";
 import Footer from "../Footer/Footer";
 
 import {
-    GridContainer1,
-    StyledButton1,
-    GridItem,
+  GridContainer1,
+  StyledButton1,
+  GridItem,
 } from "../styles/Tracking0rder.styled";
 
 import {
@@ -45,17 +45,15 @@ export default function page() {
 
       <GridContainer1>
         <GridItem>
-
-            <h2>All In One Order Tracking</h2>
-            <p>ORDER ID</p>
-            <input />
-            <p>BILLING E-MAIL</p>
-            <input />
-            <div>
+          <h2>All In One Order Tracking</h2>
+          <p>ORDER ID</p>
+          <input />
+          <p>BILLING E-MAIL</p>
+          <input />
+          <div>
             <StyledButton1>TRACK ORDER</StyledButton1>
-            </div>
+          </div>
         </GridItem>
-              
       </GridContainer1>
 
       <PopularProduct />

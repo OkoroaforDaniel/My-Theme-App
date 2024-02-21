@@ -9,11 +9,9 @@ const GridContainer = styled.div`
   margin-right: 20px;
   @media screen and (max-width: 1000px) {
     grid-template-columns: repeat(2, 2fr);
-
   }
   @media screen and (max-width: 590px) {
     grid-template-columns: repeat(1, 4fr);
-
   }
 `;
 
@@ -42,27 +40,27 @@ const StyledCategoriesButton1 = styled.button`
 `;
 
 const StyledH5H1Button = styled.div`
-margin-top: -120px;
-// padding-bottom: 20px;
-margin-right: 20px;
-text-align: right;
-h5{
-  color: #F33A6A;
-}
-`
+  margin-top: -120px;
+  // padding-bottom: 20px;
+  margin-right: 20px;
+  text-align: right;
+  h5 {
+    color: #f33a6a;
+  }
+`;
 
 const StyledH5H1ButtonWhite = styled.div`
-margin-top: -120px;
-// padding-bottom: 20px;
-margin-right: 20px;
-text-align: right;
-h2{
-  color: white;
-}
-h5{
-  color: white;
-}
-`
+  margin-top: -120px;
+  // padding-bottom: 20px;
+  margin-right: 20px;
+  text-align: right;
+  h2 {
+    color: white;
+  }
+  h5 {
+    color: white;
+  }
+`;
 
 const GridItem = styled.div`
   position: relative;
@@ -76,12 +74,12 @@ const GridItem = styled.div`
     transform: scale(1.1);
   }
 
-  &:hover   ${StyledH5H1Button} {
+  &:hover ${StyledH5H1Button} {
     transform: scale(1.1);
     margin-right: 35px;
   }
 
-  &:hover   ${StyledH5H1ButtonWhite} {
+  &:hover ${StyledH5H1ButtonWhite} {
     transform: scale(1.1);
     margin-right: 35px;
   }
@@ -92,14 +90,21 @@ const GridItem = styled.div`
 `;
 
 const CategoriesText = styled.div`
-text-align: center;
-margin-top: 100px;
-margin-bottom: 100px;
-h5 {
-  color: #F33A6A;
-  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  h5 {
+    color: #f33a6a;
+    margin-bottom: 10px;
+  }
+`;
 
-}
-`
-
-export {GridContainer, GridItem,Image, CategoriesText, StyledCategoriesButton1, StyledH5H1Button, StyledH5H1ButtonWhite }
+export {
+  GridContainer,
+  GridItem,
+  Image,
+  CategoriesText,
+  StyledCategoriesButton1,
+  StyledH5H1Button,
+  StyledH5H1ButtonWhite,
+};

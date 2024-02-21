@@ -7,7 +7,12 @@ import PopularProduct from "../PopularProduct/PopularProduct";
 import InstagramaImage from "../InstagramImage/InstagramaImage";
 import Footer from "../Footer/Footer";
 
-import { GridContainer, GridItem, ImageSideDiv, Image } from "../styles/Categories-1.styled";
+import {
+  GridContainer,
+  GridItem,
+  ImageSideDiv,
+  Image,
+} from "../styles/Categories-1.styled";
 
 import {
   StyledH2H4,
@@ -40,14 +45,15 @@ export default function page() {
 
       <GridContainer>
         <GridItem>
-        <Image src="./images/offer/offer1.jpg" alt="Offer1" />
-        <ImageSideDiv>
-          <h2>New Collections!</h2>
-          <p>Stylist Allison Taylor take on the summer season&apos;s trends.</p>
-          <button>DISCOVER NOW!</button>
-        </ImageSideDiv>
+          <Image src="./images/offer/offer1.jpg" alt="Offer1" />
+          <ImageSideDiv>
+            <h2>New Collections!</h2>
+            <p>
+              Stylist Allison Taylor take on the summer season&apos;s trends.
+            </p>
+            <button>DISCOVER NOW!</button>
+          </ImageSideDiv>
         </GridItem>
-        
       </GridContainer>
 
       <PopularProduct />

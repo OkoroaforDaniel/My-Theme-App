@@ -5,7 +5,7 @@ const StyledNavTwo = styled.div`
   // margin: 0;
   padding: 0;
   color: white;
-//   width: 100vw;
+  //   width: 100vw;
   height: 50px;
   font-size: 13px;
   font-weight: bold;
@@ -19,7 +19,6 @@ const StyledNavTwo = styled.div`
   }
   @media screen and (max-width: 458px) {
     padding-bottom: 100px;
-    
   }
   @media screen and (max-width: 334px) {
     padding-bottom: 120px;
@@ -74,18 +73,16 @@ const StyledFlexNavTwo = styled.div`
   @media screen and (max-width: 458px) {
     // margin-left: 1%;
     // margin-right: 1%;
-    
   }
 `;
 const EngLi = styled.div`
-margin-top: 5px;
-@media screen and (max-width: 1282px) {
+  margin-top: 5px;
+  @media screen and (max-width: 1282px) {
     margin-right: -5%;
     margin-left: -5%;
     margin-top: 5px;
-}
-
-`
+  }
+`;
 
 const StyledFlexNavTwoSub = styled.div`
   display: flex;
@@ -105,12 +102,11 @@ const StyledFlexNavTwoSub = styled.div`
     margin-bottom: 10px;
 
     KeyboardArrowDownIcon {
-        margin-left: -50px;
+      margin-left: -50px;
     }
   }
   @media screen and (max-width: 458px) {
     display: block;
-    
   }
 `;
 const StyledFlexNavTwoSub2 = styled.div`
@@ -125,10 +121,10 @@ const StyledFlexNavTwoSub2 = styled.div`
   }
   @media screen and (max-width: 1282px) {
     li {
-        // margin-left: -10px;
+      // margin-left: -10px;
     }
     StyledMaterialIcon {
-        // margin-left: -100px;
+      // margin-left: -100px;
     }
   }
   @media screen and (max-width: 326px) {
@@ -194,36 +190,35 @@ const StyledMaterialIcon = styled.div`
 `;
 
 const StyledFlagEng = styled.div`
-display: flex;
-@media screen and (max-width: 458px) {
   display: flex;
-  // justify-content: center;
-  width: 20px;
-  justify-content: space-between;
-  margin-left: 40%;
-  padding-top: 10px;
-}
-`
+  @media screen and (max-width: 458px) {
+    display: flex;
+    // justify-content: center;
+    width: 20px;
+    justify-content: space-between;
+    margin-left: 40%;
+    padding-top: 10px;
+  }
+`;
 
 const StyledWelCall = styled.div`
-display: flex;
-@media screen and (max-width: 458px) {
   display: flex;
-  justify-content: center;
-  font-size: 12px;
-}
-@media screen and (max-width: 337px) {
-  font-size: 10px;
-}
-@media screen and (max-width: 280px) {
-  display: block;
-  text-align: center;
-}
-
-`
+  @media screen and (max-width: 458px) {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+  }
+  @media screen and (max-width: 337px) {
+    font-size: 10px;
+  }
+  @media screen and (max-width: 280px) {
+    display: block;
+    text-align: center;
+  }
+`;
 const StyledFlexNavTwoSub3 = styled.div`
-display: flex;
-`
+  display: flex;
+`;
 
 export {
   StyledNavTwo,
