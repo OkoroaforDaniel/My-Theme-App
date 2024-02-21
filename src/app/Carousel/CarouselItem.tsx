@@ -34,10 +34,10 @@ const CarouselItem: React.FC<CarouselItemProps> = (props) => {
           <h1>{props.item.title}</h1>
           <p>{props.item.text2}</p>
           <div>
-            <Link href="/products-left-sidebar">
+            <Link href="/Categories-Fullwidth">
             <StyledButton1>SHOP WOMEN&apos;S</StyledButton1>
             </Link>
-            <Link href="/products-right-sidebar">
+            <Link href="/Categories-2">
             <StyledButton2>SHOP MEN&apos;S</StyledButton2>
             </Link>
             

@@ -41,6 +41,7 @@ const Image = styled.img`
 `;
 
 const ImageContainer = styled.div`
+overflow: hidden;
   &:hover ${Image} {
     transform: scale(1.1);
   }
